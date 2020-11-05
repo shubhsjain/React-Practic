@@ -6,6 +6,8 @@ import FC from './components/FunctionalComp';
 import Click from './components/Click'
 import Counter from './components/Counter'
 import ParentComp from './components/ParentComp'
+import LifeCycleA from './components/LifeCycleA';
+
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
    <Click/>
    <Counter/>
    <ParentComp/>
+   <LifeCycleA/>
    </div>
   );
 }
