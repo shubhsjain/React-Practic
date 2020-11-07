@@ -7,7 +7,7 @@ import Click from './components/Click'
 import Counter from './components/Counter'
 import ParentComp from './components/ParentComp'
 import LifeCycleA from './components/LifeCycleA';
-
+import Greet from './components/Greet'
 
 function App() {
   return (
@@ -21,6 +21,7 @@ function App() {
    <Counter/>
    <ParentComp/>
    <LifeCycleA/>
+   <Greet/>
    </div>
   );
 }
