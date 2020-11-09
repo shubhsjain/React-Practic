@@ -8,6 +8,8 @@ import Counter from './components/Counter'
 import ParentComp from './components/ParentComp'
 import LifeCycleA from './components/LifeCycleA';
 import Greet from './components/Greet'
+import Hello from './components/Hello'
+
 
 function App() {
   return (
@@ -22,6 +24,7 @@ function App() {
    <ParentComp/>
    <LifeCycleA/>
    <Greet/>
+   <Hello/>
    </div>
   );
 }
