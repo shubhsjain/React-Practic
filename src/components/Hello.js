@@ -37,7 +37,7 @@ import React from 'react'
 const Hello = () => {
     return React.createElement(
         'div',
-        {id: "Hello" , className: "dummyClass"},
+        {id: "Hello" , className: "dummyClass"},  // <= this is attribute it can be null or we can put a class or id..
         React.createElement(
             'h1', null , 'Hello Shubhamsss'
         )    
