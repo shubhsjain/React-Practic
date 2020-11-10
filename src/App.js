@@ -23,8 +23,10 @@ function App() {
    <Counter/>
    <ParentComp/>
    <LifeCycleA/>
-   <Greet/>
    <Hello/>
+   <Greet name= "Bruce" heroName="Batman"><p>This is Children props </p></Greet>
+   <Greet name= "Clark" heroName="Superman"><button>Allow</button></Greet>
+   <Greet name= "Diana" heroName="Wonderwoman"><p>This is Children props </p></Greet>
    </div>
   );
 }
