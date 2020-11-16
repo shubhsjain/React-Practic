@@ -9,17 +9,30 @@ export class Counter extends Component {
              count:0
         }
     }
-    IncrementCount = () => {
-          this.setState({count: this.state.count + 1})
-    }
+    // IncrementCount = () => {
+    //       this.setState({count: this.state.count + 1})
+    // }
     
+    increment() {
+        this.setState(
+            {
+                count : this.state.count + 1
+            },
+            () => {
+                console.log('Callback value', this.state.count)
+            }
+        )
+    }
+
+
     render() {
         const{count} = this.state;
         return (
-            <div>
-                <button onMouseEnter ={this.IncrementCount}> 
-                {this.props.name} Incremented to {count}</button>
-            </div>
+            // <div>
+            //     <button onMouseEnter ={this.IncrementCount}> 
+            //     {this.props.name} Incremented to {count}</button>
+            // </div>
+            
         )
     }
 }
