@@ -14,7 +14,9 @@ const Hello = () => {
 }
 export default Hello */
 
-// USING DEFAULT (REC)
+
+//              USING DEFAULT (REC)
+
 
 /**  import React, { Component } from 'react'
 
@@ -30,7 +32,9 @@ export class Hello extends Component {
 
 export default Hello */
 
-//  USING JS ONLY
+
+//                    USING JS ONLY
+
 
 import React from 'react'
 
