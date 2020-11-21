@@ -5,13 +5,12 @@ import React from 'react';
 /**{import {ClassComp, ClassComp1} from './components/ClassComp';
 import FC from './components/FunctionalComp';
 import Click from './components/Click'
-import Counter from './components/Counter'
 import ParentComp from './components/ParentComp'
 import LifeCycleA from './components/LifeCycleA';
 import Greet from './components/Greet'
 import Hello from './components/Hello'
 import FunctionProps from './components/FunctionProps';}*/
-
+import Counter from './components/Counter'
 import Message from './components/Message'
 
 function App() {
@@ -23,7 +22,7 @@ function App() {
    <ClassComp/>
    <ClassComp1/>
    <Click/>
-   <Counter/>
+   
    <ParentComp/>
    <LifeCycleA/>
    <Hello/>                
@@ -37,6 +36,7 @@ function App() {
    <FunctionProps name= "Clark" heroName="Superman"><button>Allow</button></FunctionProps>
    <FunctionProps name= "Diana" heroName="Wonderwoman"><p>This is Children props </p></FunctionProps>
    */} 
+   <Counter/>
    <Message/>
    </div>
   );
