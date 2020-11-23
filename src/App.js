@@ -1,8 +1,5 @@
 //import logo from './logo.svg';
 //import './App.css';
-import React from 'react';
-import NameList from './components/NameList';
-
 /**{import {ClassComp, ClassComp1} from './components/ClassComp';
 import FC from './components/FunctionalComp';
 import Click from './components/Click'
@@ -15,11 +12,15 @@ import Welcome from './components/Welcome'
 import Message from './components/Message'
 import ParentComp from './components/ParentComp'
 import UserGreeting from './components/UserGreeting';
+import NameList from './components/NameList';
 */
+import React from 'react';
+import Stylesheet from './components/Stylesheet';
+
 function App() {
   return (
-   <div>
-
+   <div className="App">
+     <Stylesheet />
    {/**    
    <FC/>
    <ClassComp/>
@@ -31,6 +32,7 @@ function App() {
    <Message/>
    <ParentComp/>
    <UserGreeting/>
+   <NameList/>
 
    
    <Greet name= "Clark" heroName="Superman"><button>Allow</button></Greet>
@@ -44,7 +46,6 @@ function App() {
 
    <Welcome name= "Bruce" heroName="Batman"><p>This is Children props </p></Welcome>
  */}    
-  <NameList/>
  </div>
   );
 }
