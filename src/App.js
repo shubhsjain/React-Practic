@@ -8,13 +8,13 @@ import Click from './components/Click'
 import Counter from './components/Counter'
 import ParentComp from './components/ParentComp'
 import LifeCycleA from './components/LifeCycleA';
-import Message from './components/Message'
 import Hello from './components/Hello'}
 import FunctionProps from './components/FunctionProps';
-
-*/
 import Greet from './components/Greet'
 import Welcome from './components/Welcome'
+*/
+import Message from './components/Message'
+
 
 function App() {
   return (
@@ -37,11 +37,12 @@ function App() {
 
    <FunctionProps name= "Bruce" heroName="Batman"><p>This is Children props </p></FunctionProps>
    <FunctionProps name= "Diana" heroName="Wonderwoman"><p>This is Children props </p></FunctionProps>
-   <Message/>
    <FunctionProps name= "Clark" heroName="Superman"><button>Allow</button></FunctionProps> 
-        */}  
    <Greet name= "Bruce" heroName="Batman"><p>This is Children props </p></Greet>
-   <Welcome name= "Bruce" heroName="Batman"><p>This is Children props </p></Welcome>
+     <Welcome name= "Bruce" heroName="Batman"><p>This is Children props </p></Welcome>
+
+  */}     <Message/>
+
 
  </div>
   );
