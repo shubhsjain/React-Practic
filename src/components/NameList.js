@@ -34,7 +34,7 @@ function NameList() {
     },
     ]
 const personList = person.map(person =>( 
-<Person person={person}></Person>
+<Person key = {person.id} person={person}></Person> // the key prop shoud be unique in the property like id='1' in this the no. 1 shud not repeat itself in that property
     ))
     return (
         <div>
