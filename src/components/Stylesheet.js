@@ -2,10 +2,10 @@ import React from 'react'
 import './myStyles.css'
 import styles from './appStyles.module.css' 
 
-const heading = {
-    fontsize: '72px',
-    color: 'blue'
-}
+// const heading = {
+//     fontsize: '72px',
+//     color: 'blue'
+// }
 
 function Stylesheet(props) {
     // let className = props.primary ? 'primary' : ''

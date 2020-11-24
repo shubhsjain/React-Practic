@@ -13,16 +13,18 @@ import Message from './components/Message'
 import ParentComp from './components/ParentComp'
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
+import Stylesheet from './components/Stylesheet';
 */
 import React from 'react';
-import Stylesheet from './components/Stylesheet';
+import Form from './components/Form';
 
 function App() {
   return (
    <div className="App">
-     <Stylesheet />
+     <Form/>
    {/**    
-   <FC/>
+   <FC/>     
+   <Stylesheet />
    <ClassComp/>
    <ClassComp1/>
    <Click/>
