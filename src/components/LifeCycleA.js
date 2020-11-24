@@ -11,7 +11,7 @@ export class LifeCycleA extends Component {
         console.log("LifeCycleA Comstructor")
     }
 
-    static getDrivedStateFromProps (props, state) {
+    static getDrivedStateFromProps (props, state) {         //this component is rarely used
         console.log("LifeCycleA GetDrivedStateFromProps")
         return null 
     }
@@ -21,12 +21,12 @@ export class LifeCycleA extends Component {
     }
 
     shouldComponentUpdate() {
-        console.log("LifeCycleA shouldComponentUpdate")
+        console.log("LifeCycleA shouldComponentUpdate")     // performance optimization
         return true
     }
 
     getSnapshotBeforeUpdate (prevprops , prevstate) {
-        console.log("LifeCycleA getSnapshotBeforeUpdate")
+        console.log("LifeCycleA getSnapshotBeforeUpdate")     // rarely used
         return null
     }
 

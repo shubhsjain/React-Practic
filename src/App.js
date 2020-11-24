@@ -4,7 +4,6 @@
 import FC from './components/FunctionalComp';
 import Click from './components/Click'
 import Counter from './components/Counter'
-import LifeCycleA from './components/LifeCycleA';
 import Hello from './components/Hello'}
 import FunctionProps from './components/FunctionProps';
 import Greet from './components/Greet'
@@ -14,22 +13,25 @@ import ParentComp from './components/ParentComp'
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
 import Stylesheet from './components/Stylesheet';
-*/
-import React from 'react';
 import Form from './components/Form';
+*/
+import LifeCycleA from './components/LifeCycleA';
+
+import React from 'react';
 
 function App() {
   return (
    <div className="App">
-     <Form/>
-   {/**    
+   <LifeCycleA/>
+   {/**   
+   <Form/>
+
    <FC/>     
    <Stylesheet />
    <ClassComp/>
    <ClassComp1/>
    <Click/>
    <Counter/>
-   <LifeCycleA/>
    <Hello/>                
    <Message/>
    <ParentComp/>

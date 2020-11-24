@@ -11,7 +11,7 @@ class LifeCycleB extends Component {
         console.log("LifeCycleB Comstructor")
     }
 
-    static getDrivedStateFromProps (props, state) {
+    static getDrivedStateFromProps (props, state) {                 // this method is rarely used 
         console.log("LifeCycleB GetDrivedStateFromProps")
         return null 
     }
@@ -21,7 +21,7 @@ class LifeCycleB extends Component {
     }
     
     shouldComponentUpdate() {
-        console.log("LifeCycleB shouldComponentUpdate")
+        console.log("LifeCycleB shouldComponentUpdate")     // performance optimization
         return true
     }
 
