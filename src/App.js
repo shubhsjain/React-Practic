@@ -14,17 +14,20 @@ import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
 import Stylesheet from './components/Stylesheet';
 import Form from './components/Form';
-*/
 import LifeCycleA from './components/LifeCycleA';
+import FragmentDemo from './components/FragmentDemo';
+*/
 
 import React from 'react';
-
+import Table from './components/Table'
 function App() {
   return (
    <div className="App">
-   <LifeCycleA/>
+   <Table/>
    {/**   
    <Form/>
+   <LifeCycleA/>
+   <FragmentDemo/>
 
    <FC/>     
    <Stylesheet />
