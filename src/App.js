@@ -9,26 +9,27 @@ import FunctionProps from './components/FunctionProps';
 import Greet from './components/Greet'
 import Welcome from './components/Welcome'
 import Message from './components/Message'
-import ParentComp from './components/ParentComp'
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
 import Stylesheet from './components/Stylesheet';
 import Form from './components/Form';
 import LifeCycleA from './components/LifeCycleA';
 import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table'
 */
+import ParentComp from './components/ParentComp'
 
 import React from 'react';
-import Table from './components/Table'
 function App() {
   return (
    <div className="App">
-   <Table/>
+      <ParentComp/>
+
    {/**   
    <Form/>
    <LifeCycleA/>
    <FragmentDemo/>
-
+   <Table/>
    <FC/>     
    <Stylesheet />
    <ClassComp/>
@@ -37,7 +38,6 @@ function App() {
    <Counter/>
    <Hello/>                
    <Message/>
-   <ParentComp/>
    <UserGreeting/>
    <NameList/>
 
