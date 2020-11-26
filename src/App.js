@@ -9,6 +9,7 @@ import FunctionProps from './components/FunctionProps';
 import Greet from './components/Greet'
 import Welcome from './components/Welcome'
 import Message from './components/Message'
+import ParentComp from './components/ParentComp'
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
 import Stylesheet from './components/Stylesheet';
@@ -17,14 +18,13 @@ import LifeCycleA from './components/LifeCycleA';
 import FragmentDemo from './components/FragmentDemo';
 import Table from './components/Table'
 */
-import ParentComp from './components/ParentComp'
 
 import React from 'react';
+import RefsDemo from './components/RefsDemo';
 function App() {
   return (
    <div className="App">
-      <ParentComp/>
-
+   <RefsDemo/>
    {/**   
    <Form/>
    <LifeCycleA/>
@@ -38,6 +38,7 @@ function App() {
    <Counter/>
    <Hello/>                
    <Message/>
+   <ParentComp/>
    <UserGreeting/>
    <NameList/>
 
