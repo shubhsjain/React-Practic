@@ -18,16 +18,18 @@ import LifeCycleA from './components/LifeCycleA';
 import FragmentDemo from './components/FragmentDemo';
 import Table from './components/Table'
 import RefsDemo from './components/RefsDemo';
+import FocusInput from './components/FocusInput';
 */
 
 import React from 'react';
-import FocusInput from './components/FocusInput';
+import FRParentInpur from './components/FRParentInpur';
 
 function App() {
   return (
    <div className="App">
-    <FocusInput/>
+     <FRParentInpur/>
    {/**   
+    <FocusInput/>
    <RefsDemo/>
    <Form/>
    <LifeCycleA/>
