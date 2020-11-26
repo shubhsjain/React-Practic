@@ -10,7 +10,7 @@ export class RefsDemo extends Component {
         }
     }
     componentDidMount() {
-        if (this.cbRef){
+        if (this.cbRef){        //thi is a old method will only see in old codess
             this.cbRef.focus()
         }
         // this.inputRef.current.focus()           //this will focus on the input field right away
