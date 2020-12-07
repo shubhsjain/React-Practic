@@ -20,16 +20,23 @@ import Table from './components/Table'
 import RefsDemo from './components/RefsDemo';
 import FocusInput from './components/FocusInput';
 import FRParentInpur from './components/FRParentInpur';
+import PortalDemo from './components/PortalDemo';
+
 */
 
 import React from 'react';
-import PortalDemo from './components/PortalDemo';
 
 function App() {
   return (
    <div className="App">
-     <PortalDemo/>
-   {/**   
+     
+   {/** 
+    *  <ErrorBoundry>
+     <Hero heroName='batman'></Hero></ErrorBoundry> <ErrorBoundry>
+     <Hero heroName='Superman'></Hero></ErrorBoundry> <ErrorBoundry>
+     <Hero heroName ='Joker'></Hero>
+     </ErrorBoundry>   
+   <PortalDemo/>
    <FRParentInpur/>
    <FocusInput/>
    <RefsDemo/>
