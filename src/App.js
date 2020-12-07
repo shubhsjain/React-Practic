@@ -3,7 +3,6 @@
 /**{import {ClassComp, ClassComp1} from './components/ClassComp';
 import FC from './components/FunctionalComp';
 import Click from './components/Click'
-import Counter from './components/Counter'
 import Hello from './components/Hello'}
 import FunctionProps from './components/FunctionProps';
 import Greet from './components/Greet'
@@ -21,21 +20,29 @@ import RefsDemo from './components/RefsDemo';
 import FocusInput from './components/FocusInput';
 import FRParentInpur from './components/FRParentInpur';
 import PortalDemo from './components/PortalDemo';
-
+import ErrorBoundry from './components/ErrorBoundry';
+import Hero from './components/Hero';
+import Counter from './components/Counter'
 */
 
 import React from 'react';
+import ClickCounter from './ClickCounter';
+import HoverCounter from './components/HoverCounter';
 
 function App() {
   return (
    <div className="App">
-     
-   {/** 
-    *  <ErrorBoundry>
+      
+  <ClickCounter/>
+     <HoverCounter/>
+
+   {/**   <Counter/>
+       *  <ErrorBoundry>
      <Hero heroName='batman'></Hero></ErrorBoundry> <ErrorBoundry>
      <Hero heroName='Superman'></Hero></ErrorBoundry> <ErrorBoundry>
      <Hero heroName ='Joker'></Hero>
      </ErrorBoundry>   
+
    <PortalDemo/>
    <FRParentInpur/>
    <FocusInput/>
@@ -49,7 +56,6 @@ function App() {
    <ClassComp/>
    <ClassComp1/>
    <Click/>
-   <Counter/>
    <Hello/>                
    <Message/>
    <ParentComp/>

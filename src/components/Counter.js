@@ -9,9 +9,9 @@ export class Counter extends Component {
              count:0
         }
     }
-    // IncrementCount = () => {
-    //       this.setState({count: this.state.count + 1})
-    // }
+    IncrementCount = () => {
+          this.setState({count: this.state.count + 1})
+    }
     
     increment() {
         // this.setState(
@@ -38,17 +38,15 @@ export class Counter extends Component {
     }
 
     render() {
-    
+    const{count} = this.state
         return (
             <div>
-                <div> count - {this.state.count}</div>
+                
                 <button onClick={() => this.incrementFive()}>Increment</button>
-            </div>
             
-            // <div>
-            //     <button onMouseEnter ={this.IncrementCount}> 
-            //     {this.props.name} Incremented to {count}</button>
-            // </div>
+                <button onMouseEnter ={this.IncrementCount}> 
+                {this.props.name} Incremented to {count}</button>
+            </div>
             
         )
     }
