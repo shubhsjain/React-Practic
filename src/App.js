@@ -26,21 +26,28 @@ import CounterSEF from './components/CounterSEFs'
 import HoverCounter from './components/HoverCounter';
 import ClickCounter from './ClickCounter';
 import User from './components/User';
-*/
-
-import React from 'react';
 import ClickCounterTwo from './components/ClickCounterTwo';
 import Bounter from './components/Bounter';
 import HowerCounterTwo from './components/HowerCounterTwo';
+*/
+
+import React from 'react';
+import ComponentC from './components/ComponentC';
+import { UserProvider } from './components/userContext';
 
 function App() {
   return (
    <div className="App ">
+
+     <UserProvider value="Shubham">
+     <ComponentC/>
+     </UserProvider>
+
+   {/**  
+    
      <Bounter render = {(count, incrementCount) =><ClickCounterTwo count={count} incrementCount={incrementCount} /> } />
      <Bounter render =  {(count, incrementCount) =><HowerCounterTwo count={count} incrementCount={incrementCount} /> } />
-
-
-   {/**   <ClickCounterTwo/>
+ <ClickCounterTwo/>
       <HowerCounterTwo/>
       <User render ={ (isLoggedIn) => isLoggedIn ? 'shubhs' : 'Guest'}/>  
     * 
